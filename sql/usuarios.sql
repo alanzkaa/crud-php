@@ -1,1 +1,1 @@
-create table usuarios(id int primary key AUTO_INCREMENT,nome varchar(50) not null,email varchar(50) not null,senha varchar(50) not null,senha_cript varchar(50) not null,nivel varchar (20) not null,ativo varchar(5) not null);
+create table usuarios(id int primary key AUTO_INCREMENT,nome varchar(50) not null,email varchar(50) not null,senha varchar(250) not null);
